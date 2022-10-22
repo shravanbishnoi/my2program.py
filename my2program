@@ -1,0 +1,12 @@
+#Calculating the percentage scored in class 12th:
+sub_1=float(input("Enter the marks scored in English:"))
+sub_2=float(input("Enter the marks scored in Maths:"))
+sub_3=float(input("Enter the marks scored in Physics:"))
+sub_4=float(input("Enter the marks scored in Chemistry:"))
+sub_5=float(input("Enter the marks scored in PE:"))
+Total_Marks_scored=float(sub_1+sub_2+sub_3+sub_4+sub_5)
+percentage_scored=float((Total_Marks_scored/500)*100)
+print("Your percentage scored is:",percentage_scored)
+if percentage_scored>=33:
+    print("You got passed")
+else: print("You got failed")
